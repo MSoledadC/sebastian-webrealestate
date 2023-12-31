@@ -1,0 +1,37 @@
+
+
+.nava{
+    color: #ffff !important;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    width: 100%;
+    border-bottom: none;
+    position: absolute;
+    z-index: 99;
+}
+
+.yamm .dropdown-menu {
+    background-color: transparent;
+}
+
+.logo {
+    margin-top: auto;
+}
+
+.text-danger {
+    color: skyblue;
+}
+
+.slider {
+    filter: brightness(0.7);
+}
+
+.search-btn, .toggle-btn {
+    background-color: skyblue;
+}
+
+.slider .owl-theme .owl-controls .owl-page span {
+    background-color: skyblue;
+}
