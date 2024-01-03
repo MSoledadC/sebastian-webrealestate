@@ -26,6 +26,7 @@
 
 .slider {
     filter: brightness(0.7);
+    width: 110%;
 }
 
 .search-btn, .toggle-btn {
