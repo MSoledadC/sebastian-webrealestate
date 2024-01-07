@@ -25,9 +25,17 @@
 }
 
 .slider {
-    filter: brightness(0.7);
-    width: 110%;
+    
+    width: 100%;
 }
+
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
 
 .search-btn, .toggle-btn {
     background-color: skyblue;
@@ -35,4 +43,32 @@
 
 .slider .owl-theme .owl-controls .owl-page span {
     background-color: skyblue;
+    
+}
+
+.bg-success {
+    background-color: #7cbd1e !important;
+    border-radius: 0.25rem !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* section-sobremi  */
+
+.section-sobremi {
+    padding: 3em 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-outline-primary{
+    color: #1f3c88;
+    background-color: transparent;
+    background-image: none;
+    border-color: #1f3c88;
 }
