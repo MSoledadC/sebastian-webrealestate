@@ -25,8 +25,8 @@
 }
 
 .slider {
-    
-    width: 100%;
+    min-height: 600px;
+    height: calc(100vh);    
 }
 
 .slider-content {
@@ -36,6 +36,21 @@
     transform: translate(-50%, -50%); 
 }
 
+.item img {
+    
+    opacity: 1;
+    transform: translate(0);
+}
+
+.btn.btn-white.btn-outline-white {
+    border-color: #fff;
+    background: transparent;
+    color: #fff;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
 
 .search-btn, .toggle-btn {
     background-color: skyblue;
@@ -49,6 +64,14 @@
 .bg-success {
     background-color: #7cbd1e !important;
     border-radius: 0.25rem !important;
+    letter-spacing: .2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-bottom: 1rem !important;
 }
 
 .text-white {
