@@ -79,6 +79,28 @@
     color: #fff !important;
 }
 
+.yamm .nav, .yamm .collapse, .yamm .dropup, .yamm .dropdown {
+    position: relative;
+}
+
+.yamm .yamm-content {
+    width: max-content;
+    
+} 
+.yamm .dropdown.yamm-fw .dropdown-menu {
+    width: max-content;
+    background-color: #7887bded;
+} 
+
+.nav>li>a {
+    background: transparent !important;
+}
+
+
+.navbar .yamm-content ul li a {
+    width: max-content;
+}
+
 /* section-sobremi  */
 
 .section-sobremi {
